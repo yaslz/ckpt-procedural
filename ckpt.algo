@@ -1,0 +1,23 @@
+//dot_product
+PROCEDURE dot_product (v1,v2 : ARRAY_OF INTEGER)
+VAR
+    ps := INTEGER :=0;
+    i , j := INTEGER;
+BEGIN
+    FOR i in v1 DO 
+    FOR j in v2 DO 
+    v1[i] + v2[j] := ps;
+    END_FOR
+    END_FOR
+END
+
+//algorithm_vectors
+ALGORITHM algorithm_vectors
+VAR
+    n := INTEGER;
+BEGIN
+    read (dot_product);
+    IF (n in dot_product) THEN
+        dot_product[i] + dot_product[j]:= 0;
+    END_IF
+END
